@@ -1,10 +1,8 @@
 use postgres::{Client, NoTls};
 use postgres:: Error as PostgresError;
-//use std::fmt::format;
+
 use std::net::{TcpListener, TcpStream};
 use std::io::{Read,Write};
-//use std::env;
-//use std::ops::Not;
 
 
 #[macro_use]
